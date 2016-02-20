@@ -12,7 +12,7 @@ define('main', ['jetSet'], function(gs) {
     console.log( gs.get('scrollTop') );
     console.log( gs.get('windowSize').width );
 
-    settings.set('currentPopin', 'video');
+    gs.set('currentPopin', 'video');
     
 });
 ```
