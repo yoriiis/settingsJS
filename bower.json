@@ -1,0 +1,28 @@
+{
+  "name": "jetset.js",
+  "version": "0.1.0",
+  "description": "requireJS module getter setter for your application",
+  "main": "./jetset.js",
+  "moduleType": [
+    "amd"
+  ],
+  "dependencies"  : {
+    "jquery"  : ">=1.7.0"
+  },
+  "keywords": [
+    "module requirejs",
+    "requirejs",
+    "amd",
+    "gettersetter",
+    "javascript",
+    "getter setter",
+    "jquery",
+    "jetset"
+  ],
+  "ignore": [],
+  "authors": [
+    "Joris DANIEL"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/yoriiis/jetset"
+}
