@@ -1,5 +1,5 @@
 {
-  "name": "jetset.js",
+  "name": "settingsJS",
   "version": "0.2.0",
   "description": "Getter/setter module for your application",
   "main": "./settings.js",
