@@ -1,21 +1,20 @@
-# jetSet.js
+# settingsJS
 
-requireJS module getter setter for your application.<br />
-The module has two methods, get and set quite simply !<br />
-The purpose of jetSet is caches multiples options (selector, screen dimensions, scrollTop) once for better performance and use it on all modules AMD.
+Getter/setter module for your application. The module has two methods, get and set quite simply ! The purpose of settingsJS is caches multiples options (selector, screen dimensions, scrollTop) once for better performance and use it on all modules. Edit syntax to make it compatible with your project ( AMD, Commons.js or ES6).
 
 ```javascript
-define('main', ['jetSet'], function(gs) {
+define('main', ['settingsJS'], function(settings) {
 
-    console.log( gs.get('$body') );
-    console.log( gs.get('$body').find('#header') );
-    console.log( gs.get('scrollTop') );
-    console.log( gs.get('windowSize').width );
+    // Set some settings...
+    settings.set('debug', true);
+    settings.set('container', document.querySelector('#maz-container'));
 
-    gs.set('currentPopin', 'video');
-    
+    //Example of use:
+    console.log( settings.get('container') );
+    console.log( settings.get('scrollTop') );
+    console.log( settings.get('windowSize').width );
+
 });
 ```
 
-List of all default options in jetSet : windowSize (width, height), scrollTop, isMobile, isAndroid, isiOS, isiPhone, IE8, IE9, iOSVersion, android browser and some useful selector in cache.<br />
-This list is an example and can be enrich with selectors, and others options of course.
+List of some useful default options in settingsJS : windowSize (width, height), scrollTop, isMobile, isTablet, isAndroid, isiOS.. This list is an example and can be enrich with selectors, and others options of course :)
