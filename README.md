@@ -1,3 +1,5 @@
+![settings-js](https://img.shields.io/badge/settingsJS-v0.2.0-0769ad.svg?style=flat-square)
+
 # settingsJS
 
 Getter/setter module for your application. The module has two methods, get and set quite simply ! The purpose of settingsJS is caches multiples options (selector, screen dimensions, scrollTop) once for better performance and use it on all modules. Edit syntax to make it compatible with your project ( AMD, Commons.js or ES6).
@@ -17,4 +19,4 @@ define('main', ['settingsJS'], function(settings) {
 });
 ```
 
-List of some useful default options in settingsJS : windowSize (width, height), scrollTop, isMobile, isTablet, isAndroid, isiOS.. This list is an example and can be enrich with selectors, and others options of course :)
+List of some useful default options in settingsJS : windowSize (width, height), scrollTop, isMobile, isTablet, isAndroid, isiOS. This list is an example and can be enrich with selectors, and others options of course :)
